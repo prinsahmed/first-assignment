@@ -53,7 +53,7 @@ main{
 
 }
 /* raleway font */
-.header-description-heading,.header-description-button,.nav-signup,.section-one-container h3,.section-one-description p,.second-section-container h3,.section-three-container h3,.third-section-container h3,.fourth-section-para,.fourth-section-headeing,.fourt-section-btn{
+.header-description-heading,.header-description-button,.nav-signup,.section-one-container h3,.section-one-description p,.second-section-container h3,.section-three-container h3,.third-section-container h3,.fourth-section-para,.fourth-section-headeing,.fourt-section-btn,.paragraph,.form-btn{
     
 
     font-family: "Raleway", sans-serif;
@@ -63,7 +63,7 @@ main{
   
 }
 /* inter font */
-.stat-number,.stat-data,.review{
+.stat-number,.stat-data,.review,.fifth-section-container label{
     
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
@@ -273,4 +273,51 @@ main{
     background-color: #4E47FF;
     color: #ffff;
     border-radius: 10px;
+}
+/* fifth section styles */
+
+.fifth-section-container .paragraph{
+    font-size:97px ;
+    font-weight:bold;
+    width: 528px;
+    
+}
+.fifth-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+    
+}
+.fifth-section-container label{
+    font-size: 17px;
+    font-weight:400;
+    width: 497px;
+    margin-top: 17px;
+    display: block;
+}
+.fifth-section-container input,textarea{
+    
+    width: 497px;
+    height: 50px;
+    margin-top: 3px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1
+    
+}
+.form-btn{
+    display: block;
+    width: 497px;
+    height: 62px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 19px;
+
 }
