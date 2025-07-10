@@ -25,15 +25,12 @@ main{
     
 }
 
-.nav-logo{
+.nav-section img{
 
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-size: 34px;
-    color:#4E47FF;
-  
+    height: 70px; 
+    width: 80px;
+    border-radius: 4px;
+    
 }
 
 .nav-signup{
@@ -53,7 +50,7 @@ main{
 
 }
 /* raleway font */
-.header-description-heading,.header-description-button,.nav-signup,.section-one-container h3,.section-one-description p,.second-section-container h3,.section-three-container h3,.third-section-container h3,.fourth-section-para,.fourth-section-headeing,.fourt-section-btn,.paragraph,.form-btn{
+.header-description-heading,.header-description-button,.nav-signup,.section-one-container h3,.section-one-description p,.second-section-container h3,.section-three-container h3,.third-section-container h3,.fourth-section-para,.fourth-section-headeing,.fourt-section-btn,.paragraph,.form-btn,.last-container{
     
 
     font-family: "Raleway", sans-serif;
@@ -320,4 +317,40 @@ main{
     border: none;
     margin-top: 19px;
 
+}
+/* footer */
+footer{
+    margin-top: 150px;
+    height: 250px;
+    width: 100%;
+}
+.last-container img{
+    height: 70px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+.last-container{
+    width: 600px;
+    height: 221px;
+    margin: 0 auto;
+}
+.last-container small{
+    text-align:justify;
+    color: #65646f;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links ul{
+    display: flex;
+    gap: 30px;
+
+}
+.links ul li{
+    list-style: none;
+    font-size: 11px;
+    color: #65646f;
 }
