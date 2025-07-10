@@ -7,8 +7,11 @@ body{
  margin: 0;
  padding: 0;
 }
-
-
+/* main styles */
+main{
+    width: 1140px;
+    margin:0 auto  ;
+}
 
 /* navigation section styles */
 
@@ -50,7 +53,7 @@ body{
 
 }
 /* raleway font */
-.header-description-heading,.header-description-button,.nav-signup{
+.header-description-heading,.header-description-button,.nav-signup,.section-one-container h3,.section-one-description p{
     
 
     font-family: "Raleway", sans-serif;
@@ -88,4 +91,43 @@ body{
     display: block;
     margin: 37px auto 0;
 }
+/* main first section */
+.section-one-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+    
+}
 
+.section-one-container h3{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.section-one-description{
+    width: 517px;
+    height: 203px;
+    margin-bottom: 80px;
+    }
+.section-one-description p{
+    font-size: 24px;
+    color: #252432;
+    
+}
+.section-one-description button{
+    width: 229px;
+    height: 48px;
+    color: #ffff;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    
+}
+.section-one-container img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
